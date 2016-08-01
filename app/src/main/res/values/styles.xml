@@ -31,6 +31,13 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
+    <style name="CardNumber" parent="Base.TextAppearance.AppCompat.Display1">
+        <item name="android:padding" >15dp</item>
+        <item name="android:textStyle" >bold</item>
+        <item name="android:textColor" >@color/colorPrimary</item>
+        <item name="android:layout_gravity">top|right</item>
+    </style>
+
     <style name="CardOpenIcon">
         <item name="android:padding" >15dp</item>
         <item name="android:layout_gravity">bottom|right</item>
