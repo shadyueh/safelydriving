@@ -25,7 +25,7 @@ public class FragmentQuiz5 extends Fragment {
             public void onClick(View v)
             {
                 ViewPager vPager = (ViewPager) getActivity().findViewById(R.id.viewPager);
-                vPager.setCurrentItem(0, true);
+                vPager.setCurrentItem(vPager.getCurrentItem()+1, true);
             }
         });
 

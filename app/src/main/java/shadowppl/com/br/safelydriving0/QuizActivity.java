@@ -57,9 +57,16 @@ public class QuizActivity extends AppCompatActivity {
         quizPoints[viewPager.getCurrentItem()] = point;
     }
 
+    public int getScore(){
+        int sum = 0;
+        for (int i : quizPoints)
+            sum += i;
+        return sum;
+    }
+
     private class SwipeCustomAdapter extends FragmentPagerAdapter {
 
-        private String fragments[] = {"Quiz 1","Quiz 2","Quiz 3","Quiz 4","Quiz 5"};
+        private String fragments[] = {"Quiz 1","Quiz 2","Quiz 3","Quiz 4","Quiz 5","Quiz Result"};
 
         public SwipeCustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
             super(supportFragmentManager);
@@ -83,6 +90,8 @@ public class QuizActivity extends AppCompatActivity {
                     return new FragmentQuiz4();
                 case 4:
                     return new FragmentQuiz5();
+                case 5:
+                    return new FragmentQuizResult();
                 default:
                     return null;
             }
