@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="1. When there is a rider in front of you, how do you go beyond?"
+            android:text="4. What do you do when you see a puddle?"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -29,7 +29,7 @@
                 android:layout_gravity="center_horizontal"
                 android:alpha="0.8"
                 android:scaleType="centerCrop"
-                android:src="@drawable/quiz_ultrapassagem" />
+                android:src="@drawable/quiz_poca_dagua" />
 
         </android.support.v7.widget.CardView>
 
@@ -38,27 +38,27 @@
             style="@style/QuizAnswerOption"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I go through the lane on the left, as if the bike occupy the space of a car" />
+            android:text="I pass through normally." />
 
         <RadioButton
             android:id="@+id/radioButton2"
             style="@style/QuizAnswerOption"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I do not surpass him" />
+            android:text="I just slow down." />
 
         <RadioButton
             android:id="@+id/radioButton3"
             style="@style/QuizAnswerOption"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="I continue in the same lane and I pass through the space is left over" />
+            android:text="I decrease the speed and try to divert. Otherwise, I brake and back to speed on the puddle." />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|bottom"
             android:text="Next" />
     </LinearLayout>
 </ScrollView>

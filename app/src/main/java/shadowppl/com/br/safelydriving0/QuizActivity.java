@@ -23,7 +23,7 @@ public class QuizActivity extends AppCompatActivity {
 
     private class SwipeCustomAdapter extends FragmentPagerAdapter {
 
-        private String fragments[] = {"Quiz 1","Quiz 2"};
+        private String fragments[] = {"Quiz 1","Quiz 2","Quiz 3","Quiz 4","Quiz 5"};
 
         public SwipeCustomAdapter(FragmentManager supportFragmentManager, Context applicationContext) {
             super(supportFragmentManager);
@@ -41,6 +41,12 @@ public class QuizActivity extends AppCompatActivity {
                     return new FragmentQuiz1();
                 case 1:
                     return new FragmentQuiz2();
+                case 2:
+                    return new FragmentQuiz3();
+                case 3:
+                    return new FragmentQuiz4();
+                case 4:
+                    return new FragmentQuiz5();
                 default:
                     return null;
             }
