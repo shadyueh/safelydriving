@@ -55,7 +55,7 @@
             android:text="I decrease the speed and try to divert. Otherwise, I brake and back to speed on the puddle." />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnNextQuiz4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
