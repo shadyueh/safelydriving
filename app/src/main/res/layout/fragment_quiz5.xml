@@ -33,26 +33,34 @@
 
         </android.support.v7.widget.CardView>
 
-        <RadioButton
-            android:id="@+id/radioButton"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Any place I am at the moment, since it will not obstruct vehicles." />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Only in safe and allowed places." />
+            <RadioButton
+                android:id="@+id/rbQ5A"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="Any place I am at the moment, since it will not obstruct vehicles." />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="At any intersection, when the traffic light closes." />
+            <RadioButton
+                android:id="@+id/rbQ5B"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="Only in safe and allowed places." />
+
+            <RadioButton
+                android:id="@+id/rbQ5C"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="At any intersection, when the traffic light closes." />
+        </RadioGroup>
 
         <Button
             android:id="@+id/btnFinishQuiz5"

@@ -33,26 +33,34 @@
 
         </android.support.v7.widget.CardView>
 
-        <RadioButton
-            android:id="@+id/radioButton"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I go through the lane on the left, as if the bike occupy the space of a car" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I do not surpass him" />
+            <RadioButton
+                android:id="@+id/rbQ1A"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="I go through the lane on the left, as if the bike occupy the space of a car" />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I continue in the same lane and I pass through the space is left over" />
+            <RadioButton
+                android:id="@+id/rbQ1B"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="I do not surpass him" />
+
+            <RadioButton
+                android:id="@+id/rbQ1C"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="I continue in the same lane and I pass through the space is left over" />
+        </RadioGroup>
 
         <Button
             android:id="@+id/btnNextQuiz1"

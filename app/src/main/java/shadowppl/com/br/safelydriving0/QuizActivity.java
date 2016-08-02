@@ -7,10 +7,13 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.RadioButton;
 
 public class QuizActivity extends AppCompatActivity {
 
     ViewPager viewPager;
+    int quizPoints[] = {0,0,0,0,0};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +22,39 @@ public class QuizActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(new SwipeCustomAdapter(getSupportFragmentManager(),getApplicationContext()));
+    }
+
+    public void onQuizAnswer(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        int point = 0;
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.rbQ1A:
+            case R.id.rbQ2B:
+            case R.id.rbQ3A:
+            case R.id.rbQ4C:
+            case R.id.rbQ5B:
+                if (checked)
+                    point = 2;
+                    break;
+            case R.id.rbQ1B:
+            case R.id.rbQ1C:
+            case R.id.rbQ2A:
+            case R.id.rbQ2C:
+            case R.id.rbQ3B:
+            case R.id.rbQ3C:
+            case R.id.rbQ4A:
+            case R.id.rbQ4B:
+            case R.id.rbQ5A:
+            case R.id.rbQ5C:
+                if (checked)
+                    point = 1;
+                    break;
+        }
+
+        quizPoints[viewPager.getCurrentItem()] = point;
     }
 
     private class SwipeCustomAdapter extends FragmentPagerAdapter {

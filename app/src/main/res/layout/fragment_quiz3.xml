@@ -33,26 +33,34 @@
 
         </android.support.v7.widget.CardView>
 
-        <RadioButton
-            android:id="@+id/radioButton"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I reduce the speed, try pass through the side and use the brake, pumping it. On stop, I turn on the hazard lights." />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I brake very strong, at once." />
+            <RadioButton
+                android:id="@+id/rbQ3A"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="I reduce the speed, try pass through the side and use the brake, pumping it. On stop, I turn on the hazard lights." />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="I try to quickly jump to the other track." />
+            <RadioButton
+                android:id="@+id/rbQ3B"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="I brake very strong, at once." />
+
+            <RadioButton
+                android:id="@+id/rbQ3C"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="I try to quickly jump to the other track." />
+        </RadioGroup>
 
         <Button
             android:id="@+id/btnNextQuiz3"

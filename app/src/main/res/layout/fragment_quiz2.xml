@@ -33,26 +33,35 @@
 
         </android.support.v7.widget.CardView>
 
-        <RadioButton
-            android:id="@+id/radioButton"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Any age, since we take safety measures" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/radioButton2"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="From 7 years" />
+            <RadioButton
+                android:id="@+id/rbQ2A"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="Any age, since we take safety measures" />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            style="@style/QuizAnswerOption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="From 18 years" />
+            <RadioButton
+                android:id="@+id/rbQ2B"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="From 7 years" />
+
+            <RadioButton
+                android:id="@+id/rbQ2C"
+                style="@style/QuizAnswerOption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onQuizAnswer"
+                android:text="From 18 years" />
+
+        </RadioGroup>
 
         <Button
             android:id="@+id/btnNextQuiz2"
