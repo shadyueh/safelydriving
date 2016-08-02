@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".PillionPassengerActivity" />
         <activity android:name=".BeginnerBikerActivity" />
-        <activity android:name=".DrivingSafelyActivity"></activity>
+        <activity android:name=".DrivingSafelyActivity" />
+        <activity android:name=".QuizActivity"></activity>
     </application>
 
 </manifest>
