@@ -1,6 +1,7 @@
 package shadowppl.com.br.safelydriving0;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -62,6 +63,12 @@ public class QuizActivity extends AppCompatActivity {
         for (int i : quizPoints)
             sum += i;
         return sum;
+    }
+
+    public void resetQuiz() {
+        Intent intent = getIntent();
+        finish();
+        startActivity(intent);
     }
 
     private class SwipeCustomAdapter extends FragmentPagerAdapter {

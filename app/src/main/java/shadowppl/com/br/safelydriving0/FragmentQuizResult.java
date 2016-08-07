@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +28,16 @@ public class FragmentQuizResult extends Fragment {
         scoreTitle = (TextView) view.findViewById(R.id.scoreTitle);
         scoreText = (TextView) view.findViewById(R.id.score);
         quizResultImage = (ImageView) view.findViewById(R.id.quizResultImage);
+        Button btnRetake = (Button) view.findViewById(R.id.btnRetakeQuiz);
+
+        //Define um listener no botao
+        btnRetake.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v)
+            {
+                ((QuizActivity)getActivity()).resetQuiz();
+            }
+        });
 
         //Chama método da Parent
         int score = ((QuizActivity)getActivity()).getScore();
