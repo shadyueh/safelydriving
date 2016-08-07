@@ -33,4 +33,15 @@
     <string name="quiz_result_title">Result</string>
     <string name="quiz_default_score_title">Please answer the quiz.</string>
     <string name="quiz_default_result_score">0</string>
+    <string name="begginer_text_1">begginer text 1</string>
+    <string name="intro_title">Welcome, buddy!</string>
+    <string name="intro_text">Please click on the cards to check our tips and improving your driving skills.</string>
+    <string name="section_beginner_bikers">Beginner Bikers</string>
+    <string name="section_driving_safely">Driving Safely</string>
+    <string name="section_pillion_passenger">Pillion Passenger</string>
+    <string name="begginer_title_1">Posture while driving</string>
+    <string name="pillion_title_1">pillion title 1</string>
+    <string name="pillion_text_1">pillion text 1</string>
+    <string name="safe_driving_text_1">safe driving text 1</string>
+    <string name="safe_driving_title_1">safe driving title 1</string>
 </resources>

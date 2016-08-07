@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safely Driving</string>
+    <string name="begginer_text_1">No começo, o nervosismo pode resultar em uma postura de pilotagem excessivamente rígida, o que não ajudará em nada a condução. Tente assumir uma posição natural ao guidão – isto já é meio caminho andado para pilotar bem. Manter ambos joelhos pressionando levemente o tanque e segurar o guidão com firmeza (mas sem exagero) é o ideal para fazer com que moto e condutor formem um conjunto único. Seja nas mudanças de direção, curvas acentuadas ou frenagens, ter sempre em mente que você e a moto devem formar uma só peça fará toda a diferença.</string>
+    <string name="btn_finish">Concluir</string>
+    <string name="btn_next">Próximo</string>
+    <string name="btn_retake">Refazer</string>
+    <string name="quiz_default_score_title">Por favor responda ao quiz.</string>
+    <string name="quiz_result_title">Resultado</string>
+    <string name="quiz_001B">Não o ultrapasso</string>
+    <string name="quiz_001A">Passo pela pista do lado esquerdo, como se a moto ocupasse o espaço de um carro</string>
+    <string name="quiz_001">1. Quando há um motociclista a sua frente, como você o ultrapassa?</string>
+    <string name="quiz_001C">Continuo na mesma pista e passo pelo espaço que sobra dela</string>
+    <string name="quiz_002A">Qualquer idade, desde que tomemos medidas de segurança</string>
+    <string name="quiz_002">2. Qual a idade mínima para o passageiro garupa?</string>
+    <string name="quiz_002B">A partir de 7 anos</string>
+    <string name="quiz_002C">A partir de 18 anos</string>
+    <string name="quiz_003">3. Você está dirigindo e percebe que, à frente, os carros pararam subitamente. O que você faz?</string>
+    <string name="quiz_003A">Reduzo a velocidade, tento sair pela lateral e uso o freio bombeando. Ao parar, ligo o pisca-alerta</string>
+    <string name="quiz_003B">Freio bem forte, de uma só vez</string>
+    <string name="quiz_003C">Tento desviar rápido para a outra faixa</string>
+    <string name="quiz_005">5. Quando erra o caminho, como você faz o retorno?</string>
+    <string name="quiz_005B">Somente em locais seguros e permitidos</string>
+    <string name="quiz_005C">Em qualquer cruzamento, quando o sinal fecha</string>
+    <string name="quiz_005A">Onde estiver no momento, desde que não atrapalhe a circulação de veículos</string>
+    <string name="quiz_004">4. O que você faz quando vê uma poça d\'água?</string>
+    <string name="quiz_004C">Diminuo a velocidade e tento desviar. Caso não consiga, freio e volto a acelerar sobre a poça</string>
+    <string name="quiz_004B">Apenas diminuo a velocidade</string>
+    <string name="quiz_004A">Passo normalmente</string>
+    <string name="intro_title">Bem vindo, parceiro!</string>
+    <string name="intro_text">Por favor clique nos cards para verificar nossas dicas e melhorar suas habilidades de direção.</string>
+    <string name="section_beginner_bikers">Motociclistas Iniciantes</string>
+    <string name="section_driving_safely">Dirigindo com segurança</string>
+    <string name="section_pillion_passenger">Garupa</string>
+    <string name="begginer_title_1">Postura ao dirigir</string>
+    <string name="pillion_text_1">Ao subir na motocicleta, tenha o cuidado de avisar o piloto, mesmo achando desnecessário, pois uma pequena distração pode causar desequilíbrio e queda.</string>
+    <string name="pillion_title_1">Não suba sem avisar o piloto</string>
+    <string name="safe_driving_title_1">Triplique a atenção no piso molhado</string>
+    <string name="safe_driving_text_1">A baixa aderência implica jamais acionar bruscamente os freios, câmbio, acelerador. O melhor piso na chuva é o concreto, que favorece a aderência.</string>
+</resources>

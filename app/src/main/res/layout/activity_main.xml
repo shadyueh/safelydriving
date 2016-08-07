@@ -20,13 +20,13 @@
             style="@style/Headline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welcome, buddy!" />
+            android:text="@string/intro_title" />
 
         <TextView
             style="@style/Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please scroll down to check our tips and improving your driving skills." />
+            android:text="@string/intro_text" />
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view1"
@@ -46,7 +46,7 @@
                 style="@style/CardTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Beginner Bikers" />
+                android:text="@string/section_beginner_bikers" />
 
             <ImageView
                 style="@style/CardOpenIcon"
@@ -73,7 +73,7 @@
                 style="@style/CardTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Driving Safely" />
+                android:text="@string/section_driving_safely" />
 
             <ImageView
                 style="@style/CardOpenIcon"
@@ -100,7 +100,7 @@
                 style="@style/CardTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pillion Passenger" />
+                android:text="@string/section_pillion_passenger" />
 
             <ImageView
                 style="@style/CardOpenIcon"
