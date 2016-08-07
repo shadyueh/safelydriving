@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Safely Driving</string>
+
+    <string name="btn_next">Next</string>
+    <string name="btn_retake">Retake</string>
+    <string name="btn_finish">Finish</string>
+
+    <string name="quiz_001">1. When there is a rider in front of you, how do you go beyond?</string>
+    <string name="quiz_001A">I go through the lane on the left, as if the bike occupy the space of a car</string>
+    <string name="quiz_001B">I do not surpass him</string>
+    <string name="quiz_001C">I continue in the same lane and I pass through the space is left over</string>
+
+    <string name="quiz_002">2. What\'s the minimum age to be a pillion passenger?</string>
+    <string name="quiz_002A">Any age, since we take safety measures</string>
+    <string name="quiz_002B">From 7 years</string>
+    <string name="quiz_002C">From 18 years</string>
+
+    <string name="quiz_003">3. You are driving then realize that the cars stopped ahead suddenly. What do you do?</string>
+    <string name="quiz_003A">I reduce the speed, try pass through the side and use the brake, pumping it. On stop, I turn on the hazard lights.</string>
+    <string name="quiz_003B">I brake very strong, at once.</string>
+    <string name="quiz_003C">I try to quickly jump to the other track.</string>
+
+    <string name="quiz_004">4. What do you do when you see a puddle?</string>
+    <string name="quiz_004A">I pass through normally.</string>
+    <string name="quiz_004B">I just slow down.</string>
+    <string name="quiz_004C">I decrease the speed and try to divert. Otherwise, I brake and back to speed on the puddle.</string>
+
+    <string name="quiz_005">5. When you miss the way, How do you do the return?</string>
+    <string name="quiz_005A">Any place I am at the moment, since it will not obstruct vehicles.</string>
+    <string name="quiz_005B">Only in safe and allowed places.</string>
+    <string name="quiz_005C">At any intersection, when the traffic light closes.</string>
+
+    <string name="quiz_result_title">Result</string>
+    <string name="quiz_default_score_title">Please answer the quiz.</string>
+    <string name="quiz_default_result_score">0</string>
 </resources>

@@ -10,14 +10,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="1. When there is a rider in front of you, how do you go beyond?"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view1"
             style="@style/CardViewQuiz"
@@ -33,6 +25,14 @@
 
         </android.support.v7.widget.CardView>
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/quiz_001"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onQuizAnswer"
-                android:text="I go through the lane on the left, as if the bike occupy the space of a car" />
+                android:text="@string/quiz_001A" />
 
             <RadioButton
                 android:id="@+id/rbQ1B"
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onQuizAnswer"
-                android:text="I do not surpass him" />
+                android:text="@string/quiz_001B" />
 
             <RadioButton
                 android:id="@+id/rbQ1C"
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onQuizAnswer"
-                android:text="I continue in the same lane and I pass through the space is left over" />
+                android:text="@string/quiz_001C" />
         </RadioGroup>
 
         <Button
@@ -67,6 +67,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
-            android:text="Next" />
+            android:text="@string/btn_next" />
     </LinearLayout>
 </ScrollView>

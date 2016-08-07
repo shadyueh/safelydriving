@@ -10,14 +10,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="2. What's the minimum age to be a pillion passenger?"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view1"
             style="@style/CardViewQuiz"
@@ -33,6 +25,14 @@
 
         </android.support.v7.widget.CardView>
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/quiz_002"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onQuizAnswer"
-                android:text="Any age, since we take safety measures" />
+                android:text="@string/quiz_002A" />
 
             <RadioButton
                 android:id="@+id/rbQ2B"
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onQuizAnswer"
-                android:text="From 7 years" />
+                android:text="@string/quiz_002B" />
 
             <RadioButton
                 android:id="@+id/rbQ2C"
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="onQuizAnswer"
-                android:text="From 18 years" />
+                android:text="@string/quiz_002C" />
 
         </RadioGroup>
 
@@ -68,6 +68,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
-            android:text="Next" />
+            android:text="@string/btn_next" />
     </LinearLayout>
 </ScrollView>
